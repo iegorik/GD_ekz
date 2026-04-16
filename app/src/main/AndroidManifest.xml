@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GD_ekz">
         <activity
-            android:name=".MainActivity"
+            android:name=".Grebenkin.MainScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grebenkin.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
