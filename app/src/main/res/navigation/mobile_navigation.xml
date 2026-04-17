@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_items">
+
+    <fragment
+        android:id="@+id/navigation_items"
+        android:name="com.example.gd_ekz.Grebenkin.ItemsFragment"
+        android:label="Главная" />
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.gd_ekz.Grebenkin.FavoritesFragment"
+        android:label="Избранное" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.gd_ekz.Grebenkin.ProfileFragment"
+        android:label="Профиль" />
+</navigation>
