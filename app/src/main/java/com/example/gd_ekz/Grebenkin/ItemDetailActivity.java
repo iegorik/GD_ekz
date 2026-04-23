@@ -81,7 +81,7 @@ public class ItemDetailActivity extends AppCompatActivity {
             String dateStr = sdf.format(new Date(currentItem.getCreatedAt()));
             textViewDate.setText("Дата создания: " + dateStr);
         } else {
-            Toast.makeText(this, "Предмет не найден", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Предмет не найден!", Toast.LENGTH_SHORT).show();
             finish();
         }
     }
